@@ -20,15 +20,15 @@ export default function Home() {
 
       <div className="mb-32 grid text-center">
        <h3 className={`mb-3 text-2xl font-semibold`}>
-            Re-imagined for web3
+       We run bridges between our investors and founders.
        </h3>
        <p className={`m-0 max-w-[40ch] text-sm opacity-30`}>
-        Upcoming
+       Belfye is an aggregator VC firm investing in technology companies.
         </p>
       </div>
       <footer>
         <p className={`m-0 max-w-[40ch] text-sm opacity-30`}>
-        © 2024 Belyfe Labs, All Right Reserved.
+        © 2025 Belyfe Labs, All Right Reserved.
         </p>
       </footer>
     </main>
