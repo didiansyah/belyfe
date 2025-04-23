@@ -12,22 +12,26 @@ export default function Home() {
         <Image
           src="/belyfe.svg"
           alt="Belyfe Logo"
-          width={210}
-          height={42}
+          width={160}
+          height={35}
           priority
         />
       </div>
+      <br/>
+      <br/>
 
       <div className="mb-32 grid text-center">
-       <h3 className={`mb-3 text-2xl font-semibold`}>
-       We run bridges between our investors and founders.
+        <br/>
+        <br/>
+       <h3 className={`text-5xl md:text-6xl lg:text-6xl font-light leading-tight mb-6`}>
+       We bridge between our <br/>investors and founders.
        </h3>
-       <p className={`m-0 max-w-[40ch] text-sm opacity-30`}>
-       Belfye is an aggregator VC firm investing in technology companies.
+        <p className="text-lg md:text-xl text-center max-w-2xl mx-auto opacity-30">
+          Belyfe is an aggregator VC firm for technology companies.
         </p>
       </div>
       <footer>
-        <p className={`m-0 max-w-[40ch] text-sm opacity-30`}>
+        <p className={`w-full py-6 text-center text-sm opacity-30`}>
         © 2025 Belyfe Labs, All Right Reserved.
         </p>
       </footer>
